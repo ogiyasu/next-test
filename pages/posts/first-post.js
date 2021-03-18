@@ -7,6 +7,11 @@ export default function FirstPost() {
     <Layout>
       <Head>
         <title>MyFirstPost!</title>
+        <meta name="og:title" content="MyFirstPost!" />
+        <meta
+          name="description"
+          content="Should be my title"
+        />
       </Head>
       <h1>First Post</h1>
       
